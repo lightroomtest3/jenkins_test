@@ -93,10 +93,6 @@
     NSLog(@"Button pressed");
  
     srand(clock());
-    //int random_number = rand()%100;
-    float random_number = 0.00/0.00;
-    [label_with_number setText:[NSString stringWithFormat:@"%f", random_number]];
-    NSLog(@"%f", random_number);
     int random_number = rand()%100;
     //float random_number = 0.00/0.00;
     [label_with_number setText:[NSString stringWithFormat:@"%d", random_number]];
