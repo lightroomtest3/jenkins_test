@@ -92,7 +92,7 @@
 {
     NSLog(@"Button pressed");
     
-    //36262 ?///////////
+    //36262 ?//////
     srand(clock());
     int random_number = rand()%100;
     //float random_number = 0.00/0.00;//
