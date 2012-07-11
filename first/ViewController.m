@@ -94,7 +94,7 @@
  
     srand(clock());
     int random_number = rand()%100;
-    //float random_number = 0.00/0.00;
+    //float random_number = 0.00/0.00;//
     [label_with_number setText:[NSString stringWithFormat:@"%d", random_number]];
     NSLog(@"%d", random_number);
 }
