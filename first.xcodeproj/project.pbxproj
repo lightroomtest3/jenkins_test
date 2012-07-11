@@ -401,6 +401,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/first.app/first";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
@@ -409,7 +410,11 @@
 				GCC_PREFIX_HEADER = "first/first-Prefix.pch";
 				INFOPLIST_FILE = "firstTests/firstTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TEST_AFTER_BUILD = NO;
+				TEST_HOST = "";
+				TEST_RIG = "$(BUNDLE_LOADER)";
+				"TEST_RIG[sdk=*]" = "$(BUNDLE_LOADER)";
+				VERSION_INFO_PREFIX = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -426,7 +431,10 @@
 				GCC_PREFIX_HEADER = "first/first-Prefix.pch";
 				INFOPLIST_FILE = "firstTests/firstTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TEST_AFTER_BUILD = NO;
+				TEST_RIG = "$(BUNDLE_LOADER)";
+				"TEST_RIG[sdk=*]" = "$(BUNDLE_LOADER)";
+				VERSION_INFO_PREFIX = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
