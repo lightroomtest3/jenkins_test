@@ -16,5 +16,5 @@
     UILabel *label_with_number;
 }
 - (void)loadView;
-- (void)handleTap:(UITapGestureRecognizer*) tap_recognizer;
+- (int)handleTap:(UITapGestureRecognizer*) tap_recognizer;
 @end

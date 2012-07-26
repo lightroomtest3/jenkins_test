@@ -199,7 +199,7 @@
 		F6F1488E14D2A49D004A7F10 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = F6F1489114D2A49D004A7F10 /* Build configuration list for PBXProject "first" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -410,8 +410,8 @@
 				GCC_PREFIX_HEADER = "first/first-Prefix.pch";
 				INFOPLIST_FILE = "firstTests/firstTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_AFTER_BUILD = NO;
-				TEST_HOST = "";
+				TEST_AFTER_BUILD = YES;
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				TEST_RIG = "$(BUNDLE_LOADER)";
 				"TEST_RIG[sdk=*]" = "$(BUNDLE_LOADER)";
 				VERSION_INFO_PREFIX = "$(BUNDLE_LOADER)";
@@ -431,7 +431,8 @@
 				GCC_PREFIX_HEADER = "first/first-Prefix.pch";
 				INFOPLIST_FILE = "firstTests/firstTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_AFTER_BUILD = NO;
+				TEST_AFTER_BUILD = YES;
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				TEST_RIG = "$(BUNDLE_LOADER)";
 				"TEST_RIG[sdk=*]" = "$(BUNDLE_LOADER)";
 				VERSION_INFO_PREFIX = "$(BUNDLE_LOADER)";

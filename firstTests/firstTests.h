@@ -7,7 +7,10 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
-
+#import "ViewController.h"
 @interface firstTests : SenTestCase
-
+{
+    UITapGestureRecognizer *test_tap_recognizer;
+    ViewController *test_viewcontroller;
+}
 @end

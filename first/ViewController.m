@@ -39,7 +39,7 @@
     
     [self.view addSubview:get_number_button];
     [self.view addSubview:label_with_number];
-    NSLog(@"loadView");
+     NSLog(@"loadView");
     
     
 }
@@ -88,7 +88,7 @@
     }
 }
 
-- (void)handleTap:(UIGestureRecognizer*) recognizer;
+- (int)handleTap:(UIGestureRecognizer*) recognizer;
 {
     NSLog(@"Button pressed");
     
@@ -98,6 +98,7 @@
     //float random_number = 0.00/0.00;//
     [label_with_number setText:[NSString stringWithFormat:@"%d", random_number]];
     NSLog(@"%d", random_number);
+    return random_number;
 }
 
 @end
