@@ -13,7 +13,6 @@
 @implementation ViewController
 
 
-MISTAKE!
 #pragma mark - View lifecycle
 -(void)loadView
 {
