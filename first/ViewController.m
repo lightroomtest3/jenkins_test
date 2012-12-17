@@ -12,7 +12,6 @@
 
 @implementation ViewController
 
-NONONONO
 #pragma mark - View lifecycle
 -(void)loadView
 {
