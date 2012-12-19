@@ -1,0 +1,153 @@
+TfirstTests
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/Release-iphonesimulator/firstTests.octest/Info.plist firstTests/firstTests-Info.plist
+cProcessPCH /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/first-Prefix-fstiyhlayykdgchfkobmfuloqbpr/first-Prefix.pch.pth first/first-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/first.build/Release-iphonesimulator/firstTests.build/Objects-normal/i386/firstTests.o /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/firstTests/firstTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/Release-iphonesimulator/firstTests.octest/firstTests normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Library/Frameworks/SenTestingKit.framework/SenTestingKit
+c00000000509774F00000000000030F60
+t1352103152
+s200544
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+c00000000509775D40000000000000110
+t1352103380
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000505B05F600000000003DCEF0
+t1348142582
+s4050672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000505B05FE0000000000AB3D60
+t1348142590
+s11222368
+
+N/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/Release-iphonesimulator/firstTests.octest
+t2
+s0
+
+N/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/Release-iphonesimulator/firstTests.octest.dSYM
+t2
+s0
+
+N/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/Release-iphonesimulator/firstTests.octest/Info.plist
+t2
+s0
+
+N/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/Release-iphonesimulator/firstTests.octest/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/Release-iphonesimulator/firstTests.octest/firstTests
+t2
+s0
+
+N/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/first.build/Release-iphonesimulator/firstTests.build/Objects-normal/i386/firstTests.LinkFileList
+c0000000050D055370000000000000098
+t1355830583
+s152
+
+N/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/first.build/Release-iphonesimulator/firstTests.build/Objects-normal/i386/firstTests.o
+t2
+s0
+
+N/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/first.build/Release-iphonesimulator/firstTests.build/Script-F6F148B914D2A49D004A7F10.sh
+c0000000050D055370000000000000062
+t1355830583
+s98
+
+N/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/first/first-Prefix.pch
+c0000000050CF30BF0000000000000139
+t1355755711
+s313
+
+N/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/firstTests/en.lproj/InfoPlist.strings
+c0000000050CF30BF000000000000002D
+t1355755711
+s45
+
+N/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/firstTests/firstTests.m
+c0000000050D040FA00000000000003AC
+t1355825402
+s940
+
+N/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/first-Prefix-fstiyhlayykdgchfkobmfuloqbpr/first-Prefix.pch.pth
+t2
+s0
+
+NfirstTests/firstTests-Info.plist
+c0000000050CF30BF00000000000002AE
+t1355755711
+s686
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies753c92b78c80b641^bfb993b78c80b641^---0#1#0#--18"Check dependencies36"3672ECD0-FCA0-4967-B732-BF660935692B-
+
+CCompileC build/first.build/Release-iphonesimulator/firstTests.build/Objects-normal/i386/firstTests.o /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/firstTests/firstTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s377523384.107919
+e377523384.227278
+r1
+xCompileC
+xbuild/first.build/Release-iphonesimulator/firstTests.build/Objects-normal/i386/firstTests.o
+x/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/firstTests/firstTests.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/firstTests/firstTests.m8bc51bb88c80b641^66303ab88c80b641^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/firstTests/firstTests.m0000000000000000^4144"CompileC build/first.build/Release-iphonesimulator/firstTests.build/Objects-normal/i386/firstTests.o firstTests/firstTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/first.build/Release-iphonesimulator/firstTests.build/firstTests-generated-files.hmap -I/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/first.build/Release-iphonesimulator/firstTests.build/firstTests-own-target-headers.hmap -I/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/first.build/Release-iphonesimulator/firstTests.build/firstTests-all-target-headers.hmap -iquote /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/first.build/Release-iphonesimulator/firstTests.build/firstTests-project-headers.hmap -I/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/Release-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/first.build/Release-iphonesimulator/firstTests.build/DerivedSources/i386 -I/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/first.build/Release-iphonesimulator/firstTests.build/DerivedSources -F/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/Release-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/first-Prefix-fstiyhlayykdgchfkobmfuloqbpr/first-Prefix.pch -MMD -MT dependencies -MF /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/first.build/Release-iphonesimulator/firstTests.build/Objects-normal/i386/firstTests.d --serialize-diagnostics /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/first.build/Release-iphonesimulator/firstTests.build/Objects-normal/i386/firstTests.dia -c /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/firstTests/firstTests.m -o /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/first.build/Release-iphonesimulator/firstTests.build/Objects-normal/i386/firstTests.o36"03153332-5379-4E1B-8B48-5D16B0B9F803-
+
+CCopyStringsFile /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/Release-iphonesimulator/firstTests.octest/en.lproj/InfoPlist.strings firstTests/en.lproj/InfoPlist.strings
+r0
+
+CGenerateDSYMFile /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/Release-iphonesimulator/firstTests.octest.dSYM /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/Release-iphonesimulator/firstTests.octest/firstTests
+r0
+
+CLd /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/Release-iphonesimulator/firstTests.octest/firstTests normal i386
+s377523384.233882
+e377523384.405246
+r0
+xLd
+x/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/Release-iphonesimulator/firstTests.octest/firstTests
+xnormal
+xi386
+oUndefined symbols for architecture i386:
+o  "_OBJC_CLASS_$_ViewController", referenced from:
+o      objc-class-ref in firstTests.o
+old: symbol(s) not found for architecture i386
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Link /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/Release-iphonesimulator/firstTests.octest/firstTestscafc3bb88c80b641^02d967b88c80b641^-255"Undefined symbols for architecture i386:  "_OBJC_CLASS_$_ViewController", referenced from:      objc-class-ref in firstTests.old: symbol(s) not found for architecture i386clang: error: linker command failed with exit code 1 (use -v to see invocation)4(21%IDEActivityLogMessage2@48""_OBJC_CLASS_$_ViewController", referenced from:-377523384#41#51#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@30"Objc-class-ref in firstTests.o-377523384#92#37#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@41"Symbol(s) not found for architecture i386-377523384#129#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-377523384#175#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--0#0#0#--1732"Ld build/Release-iphonesimulator/firstTests.octest/firstTests normal i386    cd /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -L/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/Release-iphonesimulator -F/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/Release-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -filelist /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/first.build/Release-iphonesimulator/firstTests.build/Objects-normal/i386/firstTests.LinkFileList -bundle_loader /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/Release-iphonesimulator/first.app/first -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework SenTestingKit -framework UIKit -framework Foundation -o /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/Release-iphonesimulator/firstTests.octest/firstTests36"4F5AE45F-8C39-409B-8DAA-5542AD688AFD-
+
+CPhaseScriptExecution "Run Script" /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/first.build/Release-iphonesimulator/firstTests.build/Script-F6F148B914D2A49D004A7F10.sh
+r0
+
+CProcessInfoPlistFile /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/Release-iphonesimulator/firstTests.octest/Info.plist firstTests/firstTests-Info.plist
+s377523383.584172
+e377523383.588333
+r1
+xProcessInfoPlistFile
+x/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/Release-iphonesimulator/firstTests.octest/Info.plist
+xfirstTests/firstTests-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Process firstTests/firstTests-Info.plist82ae95b78c80b641^c39e96b78c80b641^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/firstTests/firstTests-Info.plist0000000000000000^728"ProcessInfoPlistFile build/Release-iphonesimulator/firstTests.octest/Info.plist firstTests/firstTests-Info.plist    cd /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/git/bin"    builtin-infoPlistUtility firstTests/firstTests-Info.plist -expandbuildsettings -format binary -platform iphonesimulator -o /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/Release-iphonesimulator/firstTests.octest/Info.plist36"B5668001-CFEA-494F-8682-FB2DE368A617-
+
+CProcessPCH /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/first-Prefix-fstiyhlayykdgchfkobmfuloqbpr/first-Prefix.pch.pth first/first-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s377523383.596025
+e377523384.101404
+r1
+xProcessPCH
+x/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/first-Prefix-fstiyhlayykdgchfkobmfuloqbpr/first-Prefix.pch.pth
+xfirst/first-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile first/first-Prefix.pch96cd98b78c80b641^ea211ab88c80b641^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/first/first-Prefix.pch0000000000000000^4059"ProcessPCH /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/first-Prefix-fstiyhlayykdgchfkobmfuloqbpr/first-Prefix.pch.pth first/first-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/first.build/Release-iphonesimulator/firstTests.build/firstTests-generated-files.hmap -I/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/first.build/Release-iphonesimulator/firstTests.build/firstTests-own-target-headers.hmap -I/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/first.build/Release-iphonesimulator/firstTests.build/firstTests-all-target-headers.hmap -iquote /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/first.build/Release-iphonesimulator/firstTests.build/firstTests-project-headers.hmap -I/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/Release-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/first.build/Release-iphonesimulator/firstTests.build/DerivedSources/i386 -I/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/first.build/Release-iphonesimulator/firstTests.build/DerivedSources -F/Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/Release-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/first-Prefix-fstiyhlayykdgchfkobmfuloqbpr/first-Prefix.pch.dia -c /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/first/first-Prefix.pch -o /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/first-Prefix-fstiyhlayykdgchfkobmfuloqbpr/first-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/first-Prefix-fstiyhlayykdgchfkobmfuloqbpr/first-Prefix.pch.d36"DA250639-0781-4A29-BAC6-7277E1D2A430-
+
+CTouch /Users/tester1/Desktop/jenkins_jobs/jenkins_job_1/workspace/build/Release-iphonesimulator/firstTests.octest
+r0
+
