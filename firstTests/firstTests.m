@@ -30,7 +30,7 @@
 - (void)testThing
 {
     STAssertEquals(38, [test_viewcontroller handleTap:test_tap_recognizer] , @"tqtq");
-    //wgewgwegwegweg
+    //wgewgwegwegweg3
     //twetwetwe
     
     
