@@ -30,6 +30,8 @@
 - (void)testThing
 {
     STAssertEquals(38, [test_viewcontroller handleTap:test_tap_recognizer] , @"tqtq");
+    //wgewgwegwegweg
+    
     //int a = 5;
     //STAssertEquals(5, a, @"5! = a");
         //            @"bad amount; 1.23 != %f",
