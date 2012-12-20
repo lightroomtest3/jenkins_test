@@ -27,12 +27,6 @@
     [super tearDown];
 }
 
-- (void)testExample
-{
-    
-    //STFail(@"Unit tests are not implemented yet in firstTests");
-}
-
 - (void)testThing
 {
     STAssertEquals(38, [test_viewcontroller handleTap:test_tap_recognizer] , @"tqtq");
