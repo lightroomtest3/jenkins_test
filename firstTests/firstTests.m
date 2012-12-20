@@ -32,6 +32,7 @@
     STAssertEquals(38, [test_viewcontroller handleTap:test_tap_recognizer] , @"tqtq");
     //wgewgwegwegweg3
     //twetwetwe
+    //1512515
     
     
     //int a = 5;
