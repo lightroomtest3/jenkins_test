@@ -36,11 +36,11 @@
 - (void)testThing
 {
     STAssertEquals(38, [test_viewcontroller handleTap:test_tap_recognizer] , @"tqtq");
-    int a = 5;
-    STAssertEquals(5, a, @"5! = a");
+    //int a = 5;
+    //STAssertEquals(5, a, @"5! = a");
         //            @"bad amount; 1.23 != %f",
         //          [entry amount]);
-    NSLog(@"Log");
+    //NSLog(@"Log");
     //STFail(@"Unit tests are not implemented yet in firstTests");
 }
 @end

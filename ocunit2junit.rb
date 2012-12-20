@@ -20,7 +20,7 @@
 #
 # Where to put the XML-files from your unit tests
 #TEST_REPORTS_FOLDER = "test-reports"
-TEST_REPORTS_FOLDER = File.join("/Users/tester1/Desktop/test-reports"); 
+TEST_REPORTS_FOLDER = File.join("/Users/tester1/.jenkins/workspace/1/test-reports"); 
 SUPPORT_KIWI = true
 #
 #
