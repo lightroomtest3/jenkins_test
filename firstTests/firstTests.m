@@ -15,8 +15,8 @@
 {
     [super setUp];
     
-    test_viewcontroller = [[ViewController alloc] init];
-    test_tap_recognizer = [[UITapGestureRecognizer alloc] initWithTarget:test_viewcontroller action:@selector(handleTap:)];
+    //test_viewcontroller = [[ViewController alloc] init];
+    //test_tap_recognizer = [[UITapGestureRecognizer alloc] initWithTarget:test_viewcontroller action:@selector(handleTap:)];
     //151616262
     // Set-up code here.
 }
