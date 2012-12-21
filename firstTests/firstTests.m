@@ -56,7 +56,7 @@
 - (void)testThing3
 {
     int b = 4;
-    STAssertEquals(80, b, @"b = 50?");
+    STAssertEquals(4, b, @"b = 50?");
 }
 
 @end
