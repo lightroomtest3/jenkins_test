@@ -50,11 +50,13 @@
 {
     int a = 5;
     STAssertEquals(50, a, @"a = 50?");
+    //236236236236
 }
 
 
 - (void)testThing3
 {
+    //
     int b = 4;
     STAssertEquals(4, b, @"b = 50?");
 }
