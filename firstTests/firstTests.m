@@ -45,4 +45,18 @@
     //NSLog(@"Log");
     //STFail(@"Unit tests are not implemented yet in firstTests");
 }
+
+- (void)testThing2
+{
+    int a = 5;
+    STAssertEquals(50, a, @"a = 50?");
+}
+
+
+- (void)testThing3
+{
+    int b = 4;
+    STAssertEquals(80, b, @"b = 50?");
+}
+
 @end
